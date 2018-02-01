@@ -1,1 +1,1 @@
-add_lunch_combo lineage_nx512j-eng
+add_lunch_combo lineage_nx511j-eng
