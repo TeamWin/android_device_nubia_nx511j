@@ -27,8 +27,8 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 BOARD_KERNEL_TAGS_OFFSET := 0x01E00000
 BOARD_RAMDISK_OFFSET     := 0x02000000
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/nubia/nx512j/dt.img
-BOARD_CUSTOM_BOOTIMG_MK := device/nubia/nx512j/mkbootimg.mk
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/nubia/nx511j/dt.img
+BOARD_CUSTOM_BOOTIMG_MK := device/nubia/nx511j/mkbootimg.mk
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
@@ -48,12 +48,12 @@ TARGET_PLATFORM_DEVICE_BASE := /devices/soc.0/
 # Recovery
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_RECOVERY_SWIPE := true
-TARGET_PREBUILT_KERNEL := device/nubia/nx512j/kernel
+TARGET_PREBUILT_KERNEL := device/nubia/nx511j/kernel
 TARGET_RECOVERY_PIXEL_FORMAT := "RGBA_8888"
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 
 # TWRP Build Flags
-TARGET_RECOVERY_FSTAB := device/nubia/nx512j/recovery/etc/twrp.fstab
+TARGET_RECOVERY_FSTAB := device/nubia/nx511j/recovery/etc/twrp.fstab
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 TW_INCLUDE_CRYPTO := false
