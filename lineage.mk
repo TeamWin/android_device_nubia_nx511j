@@ -32,9 +32,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/recovery/etc/twrp.fstab:root/etc/twrp.fstab
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := Z9 mini (TWRP by TTTT555)
+PRODUCT_NAME := lineage_nx511j
 BOARD_VENDOR := nubia
 PRODUCT_DEVICE := nx511j
+PRODUCT_MODEL := Z9 mini (TWRP)
 
 PRODUCT_GMS_CLIENTID_BASE := android-nubia
 
